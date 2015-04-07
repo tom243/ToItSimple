@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Do It Simple</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_task_button">Add Task</string>
+    <string name="title_activity_task">TaskActivity</string>
+    <string name="task_description">Description..</string>
+    <string name="create_button">Create</string>
+    <string name="done_button">Done</string>
+    <string name="sign_in_welcome">Sign in screen</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="alarm_on">Alarm On</string>
+    <string name="alarm_off">Alarm Off</string>
+    <string name="Time_Picker">Time Picker</string>
+    <string name="Calendar">Calendar</string>
+    
+	<string name="str_cnt_mnu_alarm">Notification alarm</string>
+	<string name="str_cnt_mnu_location">GEO-Location</string>
+	<string name="str_cnt_mnu_importance">Importance</string>
+    <string name="str_cnt_mnu_edit">Edit</string>
+    <string name="str_cnt_mnu_share">Share</string>
+    <string name="str_cnt_mnu_delete">Delete</string>
+    
+    <string name="notifications_alarm"> notifications alarm </string>
+    <string name="action_search"> search your task </string>
+    <string name="action_add_task"> add new task </string>
+    <string name="action_show_done_tasks"> show tasks </string>
+    <string name="geofence_off"> geofence not active </string>
+    <string name="geofence_on"> geofence active </string>
+    <string name="importance_off"> not important task </string>
+    <string name="importance_on"> important task </string>
+    
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#FF66CC</color>
+    <color name="lightBlue">#00CCFF</color>
+    <color name="banana">#FFFFCC</color>
+    <color name="darkGrey">#505050</color>
+    <color name="ddarkGrey">#303030</color>
+    <color name="green">#51FFBD</color>
+    <color name="darkBlue">#000067</color>
+
+    <string name="title_activity_add_task">AddTask</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+    <string name="facebook_app_id">367442036774739</string>
+    
+</resources>

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="il.ac.shenkar.doitsimple.TaskActivity" >
+
+   
+    <com.facebook.share.widget.ShareButton
+	     android:id="@+id/facbookshare" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/task_description"
+        android:layout_marginBottom="30dp"
+        android:text="Share with Facebook" /> 
+    
+    <EditText
+        android:id="@+id/task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:height="50dp"
+        android:hint="@string/task_description"
+        android:textSize="25sp" />
+		<requestFocus></requestFocus>
+
+     <EditText
+         android:id="@+id/txtDate"
+         android:layout_width="130dp"
+         android:layout_height="50dp"
+         android:layout_below="@+id/facbookshare"
+         android:layout_marginTop="30dp"
+         android:layout_centerHorizontal="true"
+         android:background="@color/black"
+         android:ems="10"
+         android:textColor="@color/white" />
+     
+     <EditText
+         android:id="@+id/address"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/txtDate"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="20dp"
+         android:background="@color/black"
+         android:ems="10"
+         android:ellipsize="start"
+    	 android:gravity="center_horizontal"
+         android:textColor="@color/white" />
+     
+
+     <Button
+         android:id="@+id/create_activity_button"
+         android:layout_width="150dp"
+         android:layout_height="52dp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="38dp"
+         android:background="@drawable/buttonshape"
+         android:onClick="createTask"
+         android:shadowColor="#828282"
+         android:shadowDx="0"
+         android:shadowDy="0"
+         android:shadowRadius="5"
+         android:text="@string/create_button"
+         android:textColor="#FFFFFF"
+         android:textSize="25sp" />
+
+</RelativeLayout>

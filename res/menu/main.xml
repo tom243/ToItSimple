@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  
+ 	<item android:id="@+id/action_show_done_tasks"
+          android:icon="@drawable/donetasks"
+          android:title="@string/action_show_done_tasks"
+          android:titleCondensed="undone"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/action_add_task"
+          android:icon="@drawable/plus"
+          android:title="@string/action_add_task"
+          android:showAsAction="ifRoom" />
+    
+</menu>
